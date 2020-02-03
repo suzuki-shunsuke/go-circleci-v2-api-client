@@ -1,11 +1,7 @@
 coverage.txt
 coverage
+.coverage
 *.log
-graylog-mock-server
 dist
-env.sh
-.vendor-new
-
 .git-rm-branch.yml
-
 .idea/
