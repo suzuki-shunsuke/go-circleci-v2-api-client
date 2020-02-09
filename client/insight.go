@@ -45,12 +45,12 @@ type (
 	}
 
 	InsightWorkflowsDurationMetrics struct {
-		Min               int `json:"min"`
-		Max               int `json:"max"`
-		Median            int `json:"median"`
-		Mean              int `json:"mean"`
-		P95               int `json:"p95"`
-		StandardDeviation int `json:"standard_deviation"`
+		Min               int     `json:"min"`
+		Max               int     `json:"max"`
+		Median            int     `json:"median"`
+		Mean              int     `json:"mean"`
+		P95               int     `json:"p95"`
+		StandardDeviation float64 `json:"standard_deviation"`
 	}
 )
 
