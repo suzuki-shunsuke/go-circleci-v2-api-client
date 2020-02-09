@@ -34,14 +34,14 @@ type (
 	}
 
 	InsightWorkflowsMetrics struct {
-		SuccessRate      int                             `json:"success_rate"`
+		SuccessRate      float64                         `json:"success_rate"`
+		Throughput       float64                         `json:"throughput"`
 		TotalRuns        int                             `json:"total_runs"`
 		FailedRuns       int                             `json:"failed_runs"`
 		SuccessfulRuns   int                             `json:"successful_runs"`
-		Throughput       int                             `json:"throughput"`
 		Mttr             int                             `json:"mttr"`
-		DurationMetrics  InsightWorkflowsDurationMetrics `json:"duration_metrics"`
 		TotalCreditsUsed int                             `json:"total_credits_used"`
+		DurationMetrics  InsightWorkflowsDurationMetrics `json:"duration_metrics"`
 	}
 
 	InsightWorkflowsDurationMetrics struct {
